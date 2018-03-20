@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+#particles-js {
+    margin: 0;
+    position: static;
+    background: firebrick;
+    margin-bottom: 0;
+}

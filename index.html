@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <!-- En este caso usamos el framework que hemos descargado. -->
+    <script src="particles.js"></script>
+    <!-- otra opción CDN-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> -->
+    <script>
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+        particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('callback - particles.js config loaded');/*Mensaje que podemos ver desde el la consola*/
+        });
+    </script>
+</body>
+</html>
